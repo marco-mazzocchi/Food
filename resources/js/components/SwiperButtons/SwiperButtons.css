@@ -1,0 +1,21 @@
+.App .buttons {
+    text-align: center;
+    padding: 1rem 1rem 1.5rem;
+}
+
+.App .buttons .btn {
+    font-size: 3.2rem;
+}
+
+.water-btn {
+    color: #24c9ff;
+}
+
+.check-btn {
+    margin: 0 3rem;
+    color: #03e48a;
+}
+
+.fire-btn {
+    color: #e85757;
+}

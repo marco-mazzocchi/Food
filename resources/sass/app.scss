@@ -1,0 +1,35 @@
+
+// Fonts
+// @import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+body {
+    padding-top: 80px;
+}
+
+body.welcome {
+    padding: 0;
+}
+
+.App {
+    font-family: 'Fredoka One', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    .food-swiper {
+        flex: 1;
+        margin-top: 56px;
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .buttons {
+        flex: none;
+    }
+}

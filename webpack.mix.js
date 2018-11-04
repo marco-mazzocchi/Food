@@ -30,20 +30,19 @@ mix.webpackConfig({
                //and have full support for offline first (example below)
                '/': ['resources/views/welcome.blade.php'],
                '/api/dishes': ['app/Http/Resources/Dish.php']
-               // '/posts': ['resources/views/posts.blade.php']
            },
-           staticFileGlobsIgnorePatterns: [/\.map$/, /mix-manifest\.json$/, /manifest\.json$/, /service-worker\.js$/],
-           navigateFallback: '/',
-           runtimeCaching: [
-               {
-                   urlPattern: /^https:\/\/fonts\.googleapis\.com\//,
-                   handler: 'cacheFirst'
-               },
-               {
-                   urlPattern: /^https:\/\/use\.fontawesome\.com\//,
-                   handler: 'cacheFirst'
-               }
-           ],
+           staticFileGlobsIgnorePatterns: [/\.map$/, /mix-manifest\.json$/, /manifest\.json$/, /service-worker\.js$/]
+           // navigateFallback: '/',
+           // runtimeCaching: [
+           //     {
+           //         urlPattern: /^https:\/\/fonts\.googleapis\.com\//,
+           //         handler: 'cacheFirst'
+           //     },
+           //     {
+           //         urlPattern: /^https:\/\/use\.fontawesome\.com\//,
+           //         handler: 'cacheFirst'
+           //     }
+           // ],
            // importScripts: ['./js/push_message.js']
        })
    ]
